@@ -1,0 +1,8 @@
+- id: post-checkout
+  name: 'Post Checkout'
+  description: 'Increases version on checkout.'
+  language: 'script'
+  pass_filenames: false
+  always_run: true
+  stages: [post-checkout]
+  entry: post-checkout.sh
