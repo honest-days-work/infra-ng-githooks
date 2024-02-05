@@ -1,7 +1,7 @@
 - id: post-checkout
   name: Post Checkout 2
-  language: python
+  language: script
   pass_filenames: false
   always_run: true
   stages: [post-checkout]
-  entry: post-checkout.py
+  entry: post-checkout.sh
