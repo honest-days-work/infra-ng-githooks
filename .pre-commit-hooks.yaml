@@ -1,6 +1,6 @@
 - id: post-checkout
-  name: 'Post Checkout 2'
-  language: script
+  name: Post Checkout 2
+  language: system
   pass_filenames: false
   always_run: true
   stages: [post-checkout]
