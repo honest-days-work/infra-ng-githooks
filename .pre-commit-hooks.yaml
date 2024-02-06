@@ -1,7 +1,6 @@
 - id: post-checkout
   name: Increase version
-  language: python
-  pass_filenames: false
+  language: script
   always_run: true
   verbose: true
   stages: [post-checkout]
